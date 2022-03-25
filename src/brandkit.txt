@@ -1,0 +1,13 @@
+## FONTS:
+League Spartan Bold 700  {Headings/Big Text} 
+League Spartan Medium 500 {Subheadings}
+Poppins Light 300 {Body}
+// CSS import: @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Poppins:wght@300&display=swap');
+
+
+## COLORS:
+#000000 Black  {Headings/Subtitle}
+#460c15 Dark Sienna  {Primary/Headings}
+#9d1c32 ISTE Logo Color  {Logo}
+#e4e0dd Platinum White  {Background}
+#8f8f8f Gray  {Body}
