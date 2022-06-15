@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar2 from '../components/Navbar2'
+import ImageSlider from '../components/ImageSlider';
+import { SliderData } from '../components/SliderData';
 
 const GalleryPage = () => {
   return (
     <>
     <Navbar2 />
-    <h1>Gallery Page</h1>
+    <ImageSlider slides={SliderData} />;
     </>
   )
 }
