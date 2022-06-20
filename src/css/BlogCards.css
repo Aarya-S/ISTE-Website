@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Poppins:wght@300&display=swap');
+.cards{
+    height: 40vh;
+    padding: 20px;
+    width: 40vw;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.25);
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.Image{
+    height: 35vh;
+    width: 35vh;
+}
+
+.ReadMoreButton{
+    margin-top: 70px ;
+    /* padding: 10px 200px 10px 200px; */
+    height: 18%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: large;
+    padding: 12px;
+}
+
+.content{
+    min-height: 100%;
+    min-width: 19vw;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.Blog-Title{
+  font-family: 'League Spartan', sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+ 
+.Blog-Subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 550px;
+  }
+  .Image {
+    width: 65vw;
+  }
+  .ReadMoreButton{
+    margin-top: 10px;
+    height: 10%;
+    width: 100%;
+  }
+  .content{
+    margin-left: 0px;
+    margin-top: 15px;
+    min-width: 85%;
+    justify-content: flex-start;
+  }
+  .Blog-Title{
+    font-size: 22px;
+  }
+  .Blog-Subtitle{
+    font-size: 15px;
+  }
+}
+
