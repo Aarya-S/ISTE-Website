@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Poppins:wght@300&display=swap');
+
+
+
+.Custom-Header {
+    /* background-image:url("../../src/assets/rossi.jpg"); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 40vh;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ 
+    background-image: url("../../src/assets/rossi.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    width: 100%;
+  }
+   
+  .blog-title{
+   color: #fff;
+   font-family: 'League Spartan', sans-serif;
+font-size: 3rem;
+  }
+  .blog-author{ 
+   color: #fff;
+   font-family: 'Poppins', sans-serif;
+   font-size: 2rem;
+  }
+  .blog-date{
+   color: #fff;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .Custom-Header {
+      min-height: 40vh;
+      min-width: 100%;
+
+    }
+  }
+   
+
+   
+  
