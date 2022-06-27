@@ -24,7 +24,7 @@ export const FooterLinksContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 820px) {
-    padding-top: 32px;
+    padding-top: 24px;
   }
 `;
 export const FooterLinksWrapper = styled.div`
@@ -50,6 +50,7 @@ export const FooterLinkItems = styled.div`
     margin: 0;
     padding: 10px;
     width: 100%;
+    flex-direction: column;
   }
 `;
 
