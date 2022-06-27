@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Poppins:wght@300&display=swap");
 
 .iste-text {
   color: #fff;
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
-.left-nav{
+.left-nav {
   float: left;
   width: 20%;
   height: 100%;
   padding: 5px;
 }
 
-.right-nav{
+.right-nav {
   float: right;
   width: 80%;
   height: 100%;
@@ -24,13 +24,12 @@
 
 .redirects-area {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   width: 100%;
-  gap: 30px;
+  gap: 10px;
   padding-right: 30px;
 }
-
 
 /* Nav Links CSS */
 .nav-redirects-custom {
@@ -38,7 +37,7 @@
   font-weight: 500;
 }
 .nav-redirects-custom:hover {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-us {

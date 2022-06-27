@@ -44,21 +44,8 @@ const Footer = () => {
                 Events
               </FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Services</FooterLinkTitle>
-              <FooterLink as="a" href="#">
-                Testimonials
-              </FooterLink>
-              <FooterLink as="a" href="#">
-                Domains
-              </FooterLink>
-              <FooterLink as="a" href="#">
-                Team
-              </FooterLink>
-              <FooterLink as="a" href="#">
-                Image Gallery
-              </FooterLink>
-            </FooterLinkItems>
+  
+           
           </FooterLinksWrapper>
           {/* Column 2 */}
           <FooterLinksWrapper>
@@ -84,8 +71,8 @@ const Footer = () => {
               <iframe
                 title="map embed"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.759815185045!2d73.0257006!3d19.0443847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95e9ca007676b993!2sRamrao%20Adik%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1655115872096!5m2!1sen!2sin"
-                width="400"
-                height="300"
+                width="200"
+                height="150"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
