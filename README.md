@@ -9,3 +9,5 @@ To get the React App running, execute the following commands inside the project 
 1.  #### `npm install`
 
 2.  #### `npm start`
+
+The project will then be running
